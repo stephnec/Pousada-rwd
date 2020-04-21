@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tienne&display=swap');
+
+#conteudo{
+  width: auto;
+  height: 5000px;
+  margin: 0 auto;
+}
+
+/*HEADER*/
+#cabecalho{
+  width:100%;
+  height: 650px;
+  background-image: url(../img/header.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.logo{
+  height: 50px;
+  margin-left: 55px;
+  margin-top: -15px;
+  float: left;
+}
+
+#menu{
+  padding: 23px;
+  width: 100%;
+  height: 20px;
+  float: center;
+  background-color: #F0FFFF;
+  position: fixed;
+}
+
+#menu ul{
+  text-align: right;
+}
+
+#menu ul li{
+  display: inline;
+}
+
+#menu ul li a{
+  font-family: 'IM Fell French Canon SC', serif;
+  font-size:22px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-decoration: none;
+  color: rgb(40,155,190);
+  font-weight: bold;
+}
+
+#logotipo{
+  width:370px;
+  height: 80px;
+  margin : 0 auto;
+  padding-top:50px;
+}
+
+#logotipo h1{
+border: 1px solid rgba(255,255,255,0.5);
+background-color: rgba(255,255,255,0.5);
+width: 100%;
+height: 150px;
+font-size: 50px;
+font-weight: 0;
+color: #fff;
+padding-top: 25px;
+padding-bottom: 25px;
+text-align: center;
+border-radius: 5px;
+display:block;
+margin-top: 200px;
+margin-left: 200px;
+}
+
+/*ACOMODAÇÕES*/
+#acomodacoes{
+  height: 600px;
+}
+
+.quartoHome{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.quartoHome img{
+  width: 500px;
+  padding: 120px;
+  margin-left: 180px;
+  display: block;
+}
+
+.acomodacoes{
+  width: 50%;
+  height: 100%;
+  float: right;
+  padding-top: 170px;
+}
+
+.paragrafo{
+  width: 400px;
+  display: block;
+  background-color: #eee;
+  padding: 50px;
+}
