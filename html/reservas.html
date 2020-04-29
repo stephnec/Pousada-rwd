@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <title>Pousada</title>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <main id="conteudo">
+    <header id="cabecalho5">
+      <section>
+        <nav id="menu">
+          <a href="../index.html"><img class="logo" src="../img\logomarisparaty.png" alt="logo"></a>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="acomodacoes.html">Acomodações</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="reservas.html">Reservas</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section id="logotipoacomodacao">
+        <h1> Única preocupação é você <b>relaxar</b>.</h1>
+      </section>
+    </header>
+
+    <section id="reservapage">
+      <h1>Faça já a sua reserva!</h1>
+      <hr>
+    </section>
+
+    <section id="formulario">
+      <form class="reservar" action="reservar" method="post">
+        <div class="linha">
+          <div id="campoNome" class="campo">
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text" name="nome" class="nome">
+          </div>
+
+          <div id="campoSobrenome" class="campo">
+            <label for="sobrenome">Sobrenome:</label>
+            <input id="sobrenome" type="text" name="sobrenome" class="sobrenome">
+          </div>
+        </div>
+
+        <div class="linha">
+          <div id="campoEmail" class="campo">
+            <label for="email">E-mail:</label>
+            <input id="email" type="email" name="email" class="email">
+          </div>
+
+          <div id="campoTelefone" class="campo">
+            <label for="telefone">Telefone:</label>
+            <input id="telefone" type="tel" name="telefone" class="telefone">
+          </div>
+        </div>
+
+        <div class="linha">
+          <div id="campoEndereco" class="campo">
+            <label for="endereco">Endereço:</label>
+            <input id="endereco" type="text" name="endereco" class="endereco">
+          </div>
+
+          <div id="campoCidade" class="campo">
+            <label for="cidade">Cidade:</label>
+            <input id="cidade" type="text" name="cidade" class="cidade">
+          </div>
+
+          <div id="campoEstado" class="campo">
+            <label for="estado">Estado:</label>
+            <input id="estado" type="text" name="estado" class="estado">
+          </div>
+        </div>
+
+        <div class="linha">
+          <div id="campoDtEntrada" class="campo">
+            <label for="dtEntrada">Data Entrada:</label>
+            <input id="dtEntrada" type="date" name="dtEntrada" class="dtEntrada">
+          </div>
+
+          <div id="campoDtSaida" class="campo">
+            <label for="dtSaida">Data Saída:</label>
+            <input id="dtSaida" type="date" name="dtSaida" class="dtSaida">
+          </div>
+        </div>
+
+        <div class="linha">
+          <div id="campoNumPessoas" class="campo">
+            <label for="numPessoas">Número de Pessoas:</label>
+            <input id="numPessoas" type="number" name="numPessoas" class="numPessoas">
+          </div>
+
+          <div id="campoTipoQuarto" class="campo">
+            <label for="tipo">Tipo de Quarto:</label>
+            <select name="tipo">
+              <option disabled selected>Selecione uma opção</option>
+              <option value="bg">Bangalô</option>
+              <option value="ss">Suíte Superior</option>
+              <option value="st1">Suíte Térrea 1</option>
+              <option value="st2">Suíte Térrea 2</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="linha">
+          <div id="campoObservacoes" class="campo">
+            <label for="observacoes">Observações</label>
+            <textarea name="observacoes" class="observacoes"></textarea>
+          </div>
+        </div>
+
+        <div class="linha">
+          <div class="botaoReservar">
+            <input type="submit" value="Reservar">
+          </div>
+        </div>
+
+      </form>
+    </section>
+
+
+    <section id="localicacao">
+      <section id="reservapage">
+        <h1>Localização</h1>
+        <hr>
+      </section>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.7295276329137!2d-44.72469788502878!3d-23.21652558485507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9d6d1933b39a61%3A0xdcac9e84190f4dff!2sMaris%20Paraty!5e0!3m2!1spt-BR!2sbr!4v1587518510129!5m2!1spt-BR!2sbr"
+        class="mapa" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </section>
+
+    <footer id="rodape">
+
+      <a href="../index.html"><img class="logoRodape" src="../img\logomarisparaty.png" alt="logo"></a>
+
+      <div class="midiassocial">
+        <div class="ico1">
+          <a
+            href="https://www.tripadvisor.com.br/Search?geo=303503&redirect&q=Maris&topIds=1992250&queryParsed=true&uiOrigin&returnTo=http%253A__2F____2F__www__2E__tripadvisor__2E__com__2E__br__2F__&pid=3826&startTime&searchSessionId=C4BF807E8723000E5149921BA13738491493823166990ssid&sid=31518F295729A7C97B1197CCC5DF7F301587916687474&blockRedirect=true"><img
+              src="../img/ico1.png" alt="TripAdvisor"></a>
+        </div>
+        <div class="ico2">
+          <a href="https://www.facebook.com/PousadaMarisparaty"> <img src="../img/ico2.png" alt="Cafe da Manhã"></a>
+        </div>
+        <div class="ico3">
+          <a href="https://www.instagram.com/marisparaty/"> <img src="../img/ico3.png" alt="Cafe da Manhã"></a>
+        </div>
+
+      </div>
+      <p>
+        Copyright © 2020 Maris Paraty - Todos os direitos reservados.
+      </p>
+    </footer>
+  </main>
+</body>
+
+</html>
